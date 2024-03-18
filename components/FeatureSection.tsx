@@ -28,7 +28,7 @@ export default function FeatureSection() {
     </Heading>
     <Grid templateColumns='repeat(3, 1fr)' gap={6} mt={10}>
         <Feature title='Multi-platform' icon={FaComputer}>
-          Supports Intel CPUs, NVIDIA GPUs and MacOS silicon.
+          Supports Intel CPUs, NVIDIA GPUs and Apple silicon.
         </Feature>
         <Feature title='Localized' icon={FaGlobe}>
           Fetches carbon intensity estimates based on geographic position.
@@ -43,7 +43,7 @@ export default function FeatureSection() {
           Power consumption and carbon intensity are not static - neither should the estimates be.
         </Feature>
         <Feature title='Minimal overhead' icon={FaSitemap}>
-          Runs in seperate threads and only adds a minor computation cost.
+          Runs in separate threads and only adds a minor computation cost.
         </Feature>
         <Feature title='Easily integrated' icon={FaPlug}>
           Contains extensive tooling for parsing log files for easy integration with other tools.

@@ -2,8 +2,7 @@ import { Text, Box, Button, Flex, HStack, Switch, useColorMode } from "@chakra-u
 
 export default function Header() {
   const { colorMode, toggleColorMode } = useColorMode()
-  console.log(colorMode)
-  return (
+    return (
         <Flex maxH={50} w='full' justify='flex-end'>
            <HStack justify='center'>
              <Text>Dark mode</Text>

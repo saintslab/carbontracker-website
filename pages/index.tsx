@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <VStack w='full'>
+        <VStack w='full' p={['1rem', '6rem']}>
         <Header />
         <Container maxW='3xl' mt={20}>
             <IntroSection />
