@@ -12,11 +12,11 @@ const Feature = (props: FeatureProps) => {
   const { colorMode } = useColorMode()
   return <GridItem borderWidth='2px' borderColor={colorMode == 'dark' ?  '#4A6668' : 'gray.300'} background={colorMode == 'dark' ? 'gray.700' : 'gray.100'} w='100%' h='100%' rounded='lg' transition='box-shadow 100ms' _hover={{ boxShadow: '0px 0px 10px 0px #186646'}}>
     <Center px={10} pt='25px' pb='5px'>
-      <Icon w='50px' h='50px' as={props.icon} />
+      <Icon w={['30px','50px']} h={['30px','50px']} as={props.icon} />
     </Center>
-    <Box p={5}>
-      <Text display='block' fontWeight='700'>{props.title}</Text>
-      <Text fontSize='sm' >{props.children}</Text>
+    <Box p={[3,5]}>
+      <Text display='block' fontWeight='700' fontSize={['sm', 'md']}>{props.title}</Text>
+      <Text fontSize={['xs', 'sm']} >{props.children}</Text>
     </Box>
   </GridItem>
 }
@@ -26,7 +26,7 @@ export default function FeatureSection() {
     <Heading textAlign='center' size='md' fontWeight='400'>
       <strong>Carbontracker</strong> tracks hardware power consumption and local energy carbon intensity during training to provide accurate measurements and predictions of the carbon footprint.
     </Heading>
-    <Grid templateColumns='repeat(3, 1fr)' gap={6} mt={10}>
+    <Grid templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)']} gap={6} mt={10}>
         <Feature title='Multi-platform' icon={FaComputer}>
           Supports Intel CPUs, NVIDIA GPUs and Apple silicon.
         </Feature>

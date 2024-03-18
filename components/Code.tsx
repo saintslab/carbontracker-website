@@ -12,7 +12,7 @@ type CodeBlockProps = {
 }
 export default function CodeBlock(props: CodeBlockProps) {
   const text = props.isPython ? hljs.highlight(props.content, {language: 'python'}).value : props.content
-  return <Box background='gray.900' px={2} py={2} rounded='lg' boxShadow='md'>
+  return <Box background='gray.900' px={2} py={2} rounded='lg' boxShadow='md' overflowX='scroll'>
     <pre><Code background='gray.900' textColor='white' dangerouslySetInnerHTML={{__html: text}} /></pre>
   </Box>
 }

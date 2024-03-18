@@ -2,11 +2,11 @@ import { Image, Text, Grid, GridItem, VStack, Link, Heading, Button, Icon } from
 import { FaRightLong } from "react-icons/fa6";
 
 export default function PlotSection() {
-  return <Grid templateColumns='1fr 1fr' gap={4}>
-    <GridItem>
+  return <Grid templateColumns={['1fr','1fr 1fr']} gap={4}>
+    <GridItem  order={1}>
       <Heading size='md'>Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models</Heading>
         <Text fontSize='xs'>Abstract from <Link href='https://arxiv.org/abs/2007.03051'>Anthony et al. (2020)</Link></Text>
-      <Text mt={2} mb={8}>
+      <Text mt={2} mb={8} whiteSpace='preserve'>
         The popularity of solving problems using deep learning (DL) has rapidly increased and with it the need for ever more powerful models. 
         These models achieve impressive results across a wide variety of tasks such as gameplay, where AlphaStar reached the highest rank in the strategy game Starcraft II (Vinyals et al., 2019) and Agent57 surpassed human performance in all 57 Atari 2600 games (Badia et al., 2020). 
         This comes at the cost of training the model for thousands of hours on specialized hardware accelerators such as graphics processing units (GPUs). 
@@ -18,7 +18,7 @@ export default function PlotSection() {
         <Button rightIcon={<Icon as={FaRightLong} />}>Read full paper</Button>
       </Link>
     </GridItem>
-    <GridItem>
+    <GridItem order={[-1,2]}>
       <VStack justify='center'>
         <Image src='testplot.png' alt='Energy consumption of different models'/>
         <Text fontSize='xs'>Energy consumption of a variety of modern deep learning algorithms. Source: <Link href='https://arxiv.org/abs/2210.06015'>Bakhtiarifard et al. (2024)</Link></Text>

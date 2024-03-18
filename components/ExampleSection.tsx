@@ -4,7 +4,7 @@ import CodeBlock from "./Code";
 export default function ExampleSection() {
   return <VStack>
     <Heading mb={4}>Example usage</Heading>
-    <Box>
+    <Box maxW='100%'>
       <Text mb={4}>Use the CLI:</Text>
       <CodeBlock isPython={false} content={`$ carbontracker python script.py`} />
       <Text my={4}>...or embed directly into your Python program</Text>

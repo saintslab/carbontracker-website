@@ -18,7 +18,7 @@ const Author = (props: AuthorProps) => {
 export default function MaintainedBy() {
   return <VStack>
     <Heading mb={4}>Built and maintained by</Heading>
-    <Grid w='full' templateColumns='repeat(4, 1fr)' gap={6}>
+    <Grid w='full' templateColumns={['repeat(2,1fr)','repeat(4, 1fr)']} gap={6}>
       <Author name='Lasse F. Wolff Anthony' role='Original author'/>
       <Author name='Benjamin Kanding' role='Original author'/>
       <Author name='Pedram Bakhtiarifard' role='Maintainer'/>
