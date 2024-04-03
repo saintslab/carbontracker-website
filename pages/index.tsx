@@ -23,6 +23,7 @@ import "highlight.js/styles/github-dark.css";
 import SEOSection from "@/components/SEOSection";
 import CitationSection from "@/components/CitationSection";
 import StatSection from "@/components/StatSection";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -58,6 +59,7 @@ export default function Home() {
           </Container>
         </VStack>
       </main>
+      <Footer />
     </>
   );
 }

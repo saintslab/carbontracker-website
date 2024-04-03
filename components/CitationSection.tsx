@@ -42,8 +42,9 @@ export default function CitationSection() {
     <VStack justify="center">
       <Heading>Cited by over 300 publications</Heading>
       <HStack overflowX="scroll" maxW="200%">
-        {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => (
+        {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((_, index) => (
           <Citation
+            key={index}
             title="Aligning artificial intelligence with climate change mitigation"
             authors="Kaack, Lynn H and Donti, Priya L and Strubell, Emma and Kamiya, George and Creutzig, Felix and Rolnick, David"
             origin="nature.com"
