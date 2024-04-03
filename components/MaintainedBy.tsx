@@ -13,18 +13,26 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { FaFaceSmileBeam } from "react-icons/fa6";
+import Raghav from "../public/raghav.png";
+import Rasmus from "../public/rasmus.jpg";
+import Pedram from "../public/pedram.jpg";
+import { StaticImageData } from "next/image";
 
 type AuthorProps = {
   name: string;
   email?: string;
-  portrait?: string;
+  portrait?: StaticImageData;
 };
 const Author = (props: AuthorProps) => {
   return (
     <Box>
       {/* <Icon w="full" h={20} my={8} as={FaFaceSmileBeam} /> */}
       <Center my={["1rem", "2rem"]}>
-        <Avatar name={props.name} size={["xl", "2xl"]} src={props.portrait} />
+        <Avatar
+          name={props.name}
+          size={["xl", "2xl"]}
+          src={props.portrait?.src}
+        />
       </Center>
       <Heading size="sm">{props.name}</Heading>
       {props.email && (
@@ -45,7 +53,7 @@ export default function MaintainedBy() {
         <Author name="Benjamin Kanding" />
         <Author
           name="Raghavendra Selvan"
-          portrait="/raghav.png"
+          portrait={Raghav}
           email="raghav@di.ku.dk"
         />
       </Flex>
@@ -54,12 +62,12 @@ export default function MaintainedBy() {
         <Author
           name="Pedram Bakhtiarifard"
           email="pba@di.ku.dk"
-          portrait="/pedram.jpg"
+          portrait={Pedram}
         />
         <Author
           name="Rasmus Hag Løvstad"
           email="rhl@di.ku.dk"
-          portrait="/rasmus.jpg"
+          portrait={Rasmus}
         />
       </Flex>
     </VStack>
