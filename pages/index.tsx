@@ -21,9 +21,9 @@ import MaintainedBy from "@/components/MaintainedBy";
 import ExampleSection from "@/components/ExampleSection";
 import "highlight.js/styles/github-dark.css";
 import SEOSection from "@/components/SEOSection";
-import CitationSection from "@/components/CitationSection";
 import StatSection from "@/components/StatSection";
 import Footer from "@/components/Footer";
+import Favicon from "../public/favicon.ico";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +37,7 @@ export default function Home() {
           content="Seemlessly measure the carbon footprint of your machine learning models."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={Favicon.src} />
         <SEOSection />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>

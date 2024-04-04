@@ -19,7 +19,6 @@ export default function SEOSection() {
       />
       <meta property="og:url" content="//www.carbontracker.github.io/" />
       <meta property="og:img" content={SocialIMG.src} />
-      {/* TODO: Insert plot as og:image */}
     </Head>
   );
 }
