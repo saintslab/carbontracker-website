@@ -17,8 +17,11 @@ export default function SEOSection() {
         property="og:description"
         content="Integrate Carbontracker into your codebase to predict and measure emissions during training."
       />
-      <meta property="og:url" content="//www.carbontracker.github.io/" />
-      <meta property="og:img" content={SocialIMG.src} />
+      <meta property="og:url" content="https://carbontracker.info/" />
+      <meta
+        property="og:img"
+        content={`https://snailed.github.io${SocialIMG.src}`}
+      />
     </Head>
   );
 }
