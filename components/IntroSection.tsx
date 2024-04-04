@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import CodeBlock from "./Code";
 import BuildStatus from "./BuildStatus";
+import { FaGithub, FaBook } from "react-icons/fa";
 
 export default function IntroSection() {
   return (
@@ -31,11 +32,15 @@ export default function IntroSection() {
         <CodeBlock isPython={false} content={`pip install carbontracker`} />
       </VStack>
       <Stack direction={["column", "row"]} mt={4} spacing={[4, 8]}>
-        <Link href="https://github.com/lfwa/carbontracker?tab=readme-ov-file#example-usage">
-          <Button variant="solid">Get started</Button>
+        <Link href="https://github.com/lfwa/carbontracker">
+          <Button leftIcon={<FaGithub />} variant="solid">
+            GitHub
+          </Button>
         </Link>
         <Link href="https://github.com/lfwa/carbontracker">
-          <Button variant="outline">Documentation</Button>
+          <Button leftIcon={<FaBook />} variant="outline">
+            Documentation
+          </Button>
         </Link>
         <Link href="https://arxiv.org/abs/2007.03051">
           <Button variant="ghost">Paper (Anthony et al., 2020)</Button>
