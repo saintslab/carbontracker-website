@@ -15,11 +15,10 @@ export default function IntroSection() {
   return (
     <VStack align="center" w="full">
       <Heading textAlign="center" size={["lg", "2xl"]}>
-        Seemlessly measure the carbon footprint of your machine learning models
+        🌱 Carbontracker
       </Heading>
-      <Heading mt={4} textAlign="center" fontWeight="400" size={["md", "lg"]}>
-        Integrate Carbontracker into your codebase to predict and measure
-        emissions during training.
+      <Heading my={4} textAlign="center" fontWeight="400" size={["md", "lg"]}>
+        Seemlessly measure the carbon footprint of your machine learning models.
       </Heading>
       <BuildStatus />
       <VStack mt={8}>
