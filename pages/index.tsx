@@ -24,6 +24,7 @@ import SEOSection from "@/components/SEOSection";
 import StatSection from "@/components/StatSection";
 import Footer from "@/components/Footer";
 import Favicon from "../public/favicon.ico";
+import CitationSection from "@/components/CitationSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -53,8 +54,8 @@ export default function Home() {
             <Divider my={16} />
             <PlotSection />
             <Divider my={16} />
-            {/* <Divider my={16} /> */}
-            {/* <CitationSection /> */}
+            <CitationSection />
+            <Divider my={16} />
             <MaintainedBy />
           </Container>
         </VStack>
