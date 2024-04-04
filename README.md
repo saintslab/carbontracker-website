@@ -20,15 +20,18 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Deploy on Github Pages
+
+All pushes to `main` are automatically built and deployed on [snailed.github.io/carbontracker-website](https://snailed.github.io/carbontracker-website/) and [carbontracker.info](carbontracker.info).
+You can inspect a production build by running `npm run build`, `cd out`, `python -m http.server` and then visiting `localhost:8000`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [React.js Documentation](https://react.dev/)
+- [Chakra UI Documentation](https://chakra-ui.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Github Pages
-
-To be written.
