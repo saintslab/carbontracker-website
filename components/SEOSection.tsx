@@ -19,7 +19,7 @@ export default function SEOSection() {
       />
       <meta property="og:url" content="https://carbontracker.info/" />
       <meta
-        property="og:img"
+        property="og:image"
         content={`https://snailed.github.io${SocialIMG.src}`}
       />
     </Head>
