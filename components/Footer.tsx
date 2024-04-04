@@ -15,9 +15,7 @@ export default function Footer() {
         <Text pt={4}>
           <Link href="https://github.com/lfwa/carbontracker/blob/master/LICENSE">
             Carbontracker is under a MIT-license.
-          </Link>{" "}
-          <br />
-          Copyright &#169; 2020 Carbontracker Team.
+          </Link>
         </Text>
       </Container>
     </footer>
