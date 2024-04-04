@@ -38,8 +38,8 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={Favicon.src} />
-        <SEOSection />
       </Head>
+      <SEOSection />
       <main className={`${styles.main} ${inter.className}`}>
         <VStack w="full" p={["1rem", "6rem"]}>
           <Header />
