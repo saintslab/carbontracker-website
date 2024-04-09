@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/carbontracker-website',
   reactStrictMode: true,
   output: 'export',
   images: {
