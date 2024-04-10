@@ -1,5 +1,5 @@
 # Carbontracker home page
-This is the code for [carbontracker.github.io](carbontracker.github.io), which serves as a [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)-friendly, shareable landing page for the Carbontracker project.
+This is the code for [carbontracker.info](carbontracker.info), which serves as a [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)-friendly, shareable landing page for the Carbontracker project.
 It is built using [Next.js](https://nextjs.org/), which is a framework for [React](https://react.dev/), which is a modern frontend web development framework.
 Next.js is set up to export to static HTML files, which is servable by Github Pages.
 
