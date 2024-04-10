@@ -22,7 +22,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Deploy on Github Pages
 
-All pushes to `main` are automatically built and deployed on [snailed.github.io/carbontracker-website](https://snailed.github.io/carbontracker-website/) and [carbontracker.info](carbontracker.info).
+All pushes to `main` are automatically built and deployed on [saintslab.github.io/carbontracker-website](https://saintslab.github.io/carbontracker-website/) and [carbontracker.info](carbontracker.info).
 You can inspect a production build by running `npm run build`, `cd out`, `python -m http.server` and then visiting `localhost:8000`.
 
 ## Learn More
