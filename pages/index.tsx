@@ -35,7 +35,7 @@ export default function Home() {
         <title>Carbontracker</title>
         <meta
           name="description"
-          content="Seemlessly measure the carbon footprint of your machine learning models."
+          content="Seamlessly measure the carbon footprint of your machine learning models."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={Favicon.src} />
