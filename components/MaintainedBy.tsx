@@ -49,7 +49,10 @@ export default function MaintainedBy() {
       <Heading mb={4}>Built and maintained by</Heading>
       <Text>Originally developed by</Text>
       <Flex w="full" flexWrap="wrap" justify="center" gap={8} mb={16}>
-        <Author name="Lasse F. Wolff Anthony" />
+        <Author 
+          name="Lasse F. Wolff Anthony"
+          email="lfwa@pm.me"
+          />
         <Author name="Benjamin Kanding" />
         <Author
           name="Raghavendra Selvan"
