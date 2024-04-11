@@ -18,7 +18,7 @@ export default function IntroSection() {
         🌱 Carbontracker
       </Heading>
       <Heading my={4} textAlign="center" fontWeight="400" size={["md", "lg"]}>
-        Seemlessly measure the carbon footprint of your machine learning models.
+        Seamlessly measure the carbon footprint of your machine learning models.
       </Heading>
       <BuildStatus />
       <VStack mt={8}>
