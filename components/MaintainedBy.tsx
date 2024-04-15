@@ -53,7 +53,9 @@ export default function MaintainedBy() {
           name="Lasse F. Wolff Anthony"
           email="lfwa@pm.me"
           />
-        <Author name="Benjamin Kanding" />
+        <Author name="Benjamin Kanding" 
+          email="bmk1212@live.dk"
+          />
         <Author
           name="Raghavendra Selvan"
           portrait={Raghav}
