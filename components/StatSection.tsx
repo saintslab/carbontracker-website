@@ -26,7 +26,7 @@ export default function StatSection() {
           <StatGroup>
             <Stat>
               <StatLabel>Citations</StatLabel>
-              <StatNumber>312</StatNumber>
+              <StatNumber>350</StatNumber>
               <StatHelpText>
                 <Link href="https://scholar.google.com/scholar?cites=1575501828776281081&as_sdt=2005&sciodt=0,5&hl=da">
                   Google Scholar
@@ -44,7 +44,7 @@ export default function StatSection() {
             </Stat>
             <Stat>
               <StatLabel>Downloads</StatLabel>
-              <StatNumber>89.000</StatNumber>
+              <StatNumber>91,000</StatNumber>
               <StatHelpText>
                 <Link href="https://console.cloud.google.com/bigquery?sq=534652964095:a047a64cdffd41f9b0326d9224ddc1cf">
                   PyPI
