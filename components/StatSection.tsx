@@ -20,7 +20,7 @@ export default function StatSection() {
       <Card w="full">
         <CardHeader>
           <Heading size="md">Statistics</Heading>
-          <Text opacity={0.6}>as of March 2024</Text>
+          <Text opacity={0.6}>as of May 2024</Text>
         </CardHeader>
         <CardBody>
           <StatGroup>
@@ -35,7 +35,7 @@ export default function StatSection() {
             </Stat>
             <Stat>
               <StatLabel>Stars</StatLabel>
-              <StatNumber>306</StatNumber>
+              <StatNumber>344</StatNumber>
               <StatHelpText>
                 <Link href="https://github.com/lfwa/carbontracker/stargazers">
                   GitHub
