@@ -33,6 +33,12 @@ export default function BuildStatus() {
           alt="License"
         />
       </Link>
+      <Link href="https://pepy.tech/project/carbontracker">
+        <img
+          src="https://static.pepy.tech/badge/carbontracker"
+          alt="Downloads"
+        />
+      </Link>
     </HStack>
   );
 }
