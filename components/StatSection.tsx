@@ -20,13 +20,13 @@ export default function StatSection() {
       <Card w="full">
         <CardHeader>
           <Heading size="md">Statistics</Heading>
-          <Text opacity={0.6}>as of May 2024</Text>
+          <Text opacity={0.6}>as of August 2024</Text>
         </CardHeader>
         <CardBody>
           <StatGroup>
             <Stat>
               <StatLabel>Citations</StatLabel>
-              <StatNumber>350</StatNumber>
+              <StatNumber>400</StatNumber>
               <StatHelpText>
                 <Link href="https://scholar.google.com/scholar?cites=1575501828776281081&as_sdt=2005&sciodt=0,5&hl=da">
                   Google Scholar
