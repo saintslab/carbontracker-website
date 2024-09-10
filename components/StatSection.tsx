@@ -35,7 +35,7 @@ export default function StatSection() {
             </Stat>
             <Stat>
               <StatLabel>Stars</StatLabel>
-              <StatNumber>344</StatNumber>
+              <StatNumber>350</StatNumber>
               <StatHelpText>
                 <Link href="https://github.com/lfwa/carbontracker/stargazers">
                   GitHub
@@ -44,7 +44,7 @@ export default function StatSection() {
             </Stat>
             <Stat>
               <StatLabel>Downloads</StatLabel>
-              <StatNumber>91,000</StatNumber>
+              <StatNumber>98k</StatNumber>
               <StatHelpText>
                 <Link href="https://console.cloud.google.com/bigquery?sq=534652964095:a047a64cdffd41f9b0326d9224ddc1cf">
                   PyPI
