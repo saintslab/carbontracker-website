@@ -212,7 +212,7 @@ export default function CitationSection() {
 
   return (
     <VStack justify="center">
-      <Heading mb={8}>Cited by over 300 publications</Heading>
+      <Heading mb={8}>Cited by over 400 publications</Heading>
       <HStack
         mb={8}
         overflowX="scroll"
