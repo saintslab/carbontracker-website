@@ -20,7 +20,7 @@ export default function StatSection() {
       <Card w="full">
         <CardHeader>
           <Heading size="md">Statistics</Heading>
-          <Text opacity={0.6}>as of August 2024</Text>
+          <Text opacity={0.6}>as of January 2025</Text>
         </CardHeader>
         <CardBody>
           <StatGroup>
