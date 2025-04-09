@@ -36,7 +36,7 @@ export default function IntroSection() {
             GitHub
           </Button>
         </Link>
-        <Link href="https://github.com/lfwa/carbontracker">
+        <Link href="https://docs.carbontracker.info/">
           <Button leftIcon={<FaBook />} variant="outline">
             Documentation
           </Button>
