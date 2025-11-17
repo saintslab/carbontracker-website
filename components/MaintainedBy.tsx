@@ -75,6 +75,13 @@ export default function MaintainedBy() {
           portrait={Rasmus}
         />
       </Flex>
+       <Author
+          name="Mikkel Dahl"
+          email="mikkel.dahl@di.ku.dk"
+          portrait={Mikkel}
+        />
+      </Flex>
+
     </VStack>
   );
 }
