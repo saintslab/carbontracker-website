@@ -75,14 +75,12 @@ export default function MaintainedBy() {
           email="rhl@di.ku.dk"
           portrait={Rasmus}
         />
-      </Flex>
        <Author
           name="Mikkel Dahl"
           email="mikkel.dahl@di.ku.dk"
           portrait={Mikkel}
         />
       </Flex>
-
     </VStack>
   );
 }
