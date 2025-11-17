@@ -16,6 +16,7 @@ import { FaFaceSmileBeam } from "react-icons/fa6";
 import Raghav from "../public/raghav.png";
 import Rasmus from "../public/rasmus.jpg";
 import Pedram from "../public/pedram.jpg";
+import Mikkel from "../public/mikkel.jpg";
 import { StaticImageData } from "next/image";
 
 type AuthorProps = {
