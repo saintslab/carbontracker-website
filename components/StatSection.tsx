@@ -26,7 +26,7 @@ export default function StatSection() {
           <StatGroup>
             <Stat>
               <StatLabel>Citations</StatLabel>
-              <StatNumber>500</StatNumber>
+              <StatNumber>660</StatNumber>
               <StatHelpText>
                 <Link href="https://scholar.google.com/scholar?cites=1575501828776281081&as_sdt=2005&sciodt=0,5&hl=da">
                   Google Scholar
@@ -35,9 +35,9 @@ export default function StatSection() {
             </Stat>
             <Stat>
               <StatLabel>Stars</StatLabel>
-              <StatNumber>418</StatNumber>
+              <StatNumber>466</StatNumber>
               <StatHelpText>
-                <Link href="https://github.com/lfwa/carbontracker/stargazers">
+                <Link href="https://github.com/saintslab/carbontracker/stargazers">
                   GitHub
                 </Link>
               </StatHelpText>
